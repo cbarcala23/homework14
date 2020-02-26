@@ -13,14 +13,6 @@ if (process.env.JAWSDB_URL) {
   });
 };
 
-// var connection = mysql.createConnection({
-//   host: "gzp0u91edhmxszwf.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
-//   port: 3306,
-//   user: "f4eacne93uu8ugak",
-//   password: "tmu7jo3w2q3uasvq",
-//   database: "xrxk1fm1xb0io57b"
-// });
-
 // Make connection.
 connection.connect(function (err) {
   if (err) {
